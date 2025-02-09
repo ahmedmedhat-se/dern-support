@@ -93,6 +93,12 @@ nav .nav-link:hover {
 }
 /* Navbar Component Style Ends */
 
+/* Homepage Component Style Starts */
+.homepage {
+  animation: fadeIn 1.2s ease-in-out;
+}
+/* Homepage Component Style Ends */
+
 /* Services Component Styling Starts */
 .services {
   background-color: #F2F2F2;
@@ -126,27 +132,6 @@ footer section, footer .copyrights {
   color: black;
 }
 /* Footer Component Style Ends */
-
-/* Keyframes for Animations */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes slideInUp {
-  from {
-    transform: translateY(50px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
 
 /* Media Queries for Responsive Design */
 @media screen and (max-width: 1200px) {
@@ -199,4 +184,14 @@ footer section, footer .copyrights {
 
 @media screen and (max-width: 576px) {
   /* Still Developing */
+}
+
+/* Keyframes for Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
